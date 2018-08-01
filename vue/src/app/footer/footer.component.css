@@ -1,0 +1,24 @@
+.container-footer{
+    background-color: #727F80;
+    padding: 40px;
+    height: 100px;
+}
+.footer>h1 {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 45%;
+}
+
+.logos {
+    display: inline;
+    margin-left: 45%;
+}
+.logito {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    color: white;
+    display: inline;
+}
