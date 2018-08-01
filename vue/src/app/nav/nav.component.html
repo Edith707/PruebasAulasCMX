@@ -1,42 +1,94 @@
-<div class="container-12">
+<div class="container">
   <div class="row">
-     
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand home" href="#"><span>Vue.js</span></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <form class="form-inline my-2 my-lg-0">
+                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              </form>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Learn
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://vuejs.org/v2/guide/">Guide</a>
+                  <a class="dropdown-item" href="https://vuejs.org/v2/api/">API</a>
+                  <a class="dropdown-item" href="https://vuejs.org/v2/style-guide/">Style Guide</a>
+                  <a class="dropdown-item" href="https://vuejs.org/v2/examples/">Examples</a>
+                  <a class="dropdown-item" href="https://vuejs.org/v2/cookbook/">Cook book</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Ecosystem
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Help</a>
+                    <a class="dropdown-item" href="https://forum.vuejs.org/">Forum</a>
+                    <a class="dropdown-item" href="https://discordapp.com/invite/HBherRA">Chat</a>
+                    <a class="dropdown-item" href="https://www.vuemeetups.org/">Meetups</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Tooling</a>
+                    <a class="dropdown-item" href="https://github.com/vuejs/vue-devtools">Devtools</a>
+                    <a class="dropdown-item" href="https://vuejs-templates.github.io/webpack/">Webpack Template</a>
+                    <a class="dropdown-item" href="https://vue-loader.vuejs.org/">Vue Loader</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Core Libraries</a>
+                    <a class="dropdown-item" href="https://router.vuejs.org/">Vue Router</a>
+                    <a class="dropdown-item" href="https://vuex.vuejs.org/">Vuex</a>
+                    <a class="dropdown-item" href="https://ssr.vuejs.org/">Vue Server Renderer</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">News</a>
+                    <a class="dropdown-item" href="https://news.vuejs.org/">Weekly News</a>
+                    <a class="dropdown-item" href="https://twitter.com/vuejs">Roadmap</a>
+                    <a class="dropdown-item" href="https://twitter.com/vuejs">Twitter</a>
+                    <a class="dropdown-item" href="https://medium.com/the-vue-point">Blog</a>
+                    <a class="dropdown-item" href="https://vuejobs.com/?ref=vuejs">Jobs</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Resource Lists</a>
+                    <a class="dropdown-item" href="https://github.com/vuejs">Official Repos</a>
+                    <a class="dropdown-item" href="https://curated.vuejs.org/">Vue Curated</a>
+                    <a class="dropdown-item" href="https://github.com/vuejs/awesome-vue">Awesome Vue</a>
+                  </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Team <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Support Vue
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">One Time Donations</a>
+                      <a class="dropdown-item" href="#">Recurring Piedges</a>
+                      <a class="dropdown-item" href="#">T-Shirt Shop</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Translation
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="https://jp.vuejs.org/index.html">Japanese</a>
+                          <a class="dropdown-item" href="https://cn.vuejs.org/index.html">Chinese</a>
+                          <a class="dropdown-item" href="https://ru.vuejs.org/index.html">Russian</a>
+                          <a class="dropdown-item" href="https://kr.vuejs.org/index.html">Korean</a>
+                          <a class="dropdown-item" href="https://br.vuejs.org/index.htm">Portuguese</a>
+                          <a class="dropdown-item" href="https://br.vuejs.org/index.htm">Francais</a>
+                          <a class="dropdown-item" href="https://br.vuejs.org/index.htm">Tieng Viet</a>
+                        </div>
+                     </li>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+            </ul>
+            
           </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
+        </nav>
   </div>
 
 </div>
+
